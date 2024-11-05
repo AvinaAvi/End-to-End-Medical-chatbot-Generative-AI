@@ -52,12 +52,18 @@ using langchain ->  using as generative AI frame work to develop the entire proj
 
 pine cone--> is cloud based vector database is using here
 
-flask --> is using for crateing user interface
+flask --> is using for creating user interface
 
 GitHub
 
 
-here we are using sentence transformer, cause we will be using open source embedding model to generate the vector embedding
+here we are using sentence transformer,===> cause we will be using open source embedding model to generate the vector embedding
+
+sentence transformer uses transformer library
+
+that is it will be using hugging face platform to download the opensource model.
+
+and with the help of that model -->we can generate the vector embedding.
 
 
 
@@ -66,11 +72,10 @@ first we need to create the entire project folder structure
 
 19:20
 
-using pypdf loader
+using pypdf loader -- here using pdf document thats why.
 
 
-
-extrcating all the information from the pdf file.
+extracting all the information from the pdf file.
 
 performing the chunking operation using recursive text splitter
 
@@ -83,6 +88,19 @@ imported hugging face embedding model from langchain embedding
 
 November 5
 -----------
+
+python-dotenv  --> using cause we are using one env file
+inside this env file we will be mentioning open ai credentials and pinecone credentials
+
+need to create project folder structure
+
+here we will be automatically creating the project folder structure
+
+creating entire project template
+
+create the entire logic to create the entire structure.
+
+how setting up our project as my local package
 
 
 
