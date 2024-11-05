@@ -1,0 +1,115 @@
+using custom data of medical information.
+
+teaching our model, creating entire knowledge base.
+then connecting LLM there
+
+creating complte pipe line
+
+here using modular coding in python for implementing project
+
+------------------------------------------------------------
+
+creating knowledge base using entire book
+
+here using pine cone vector database(cloud based vector db)
+
+extracting all information from the book---> creating chunks --->with the help of embedding model creating vector embeddings.---> that vector embedding will be storing to the pine cone vector database.
+
+
+that pine cone vector db will be my knowledge base.
+
+
+
+
+
+using embedding model creating vector embedding
+====>  sematic index ===> this is going to the knowledge base(pine cone vector store)
+
+
+==============
+
+ask a query --> it will convert into query embedding==> and go the knowledge base =========> it will return some rank result
+
+then will use one large language model 
+
+here using open ai LLM model
+Why using open ai model ==> open ai model is already hosted, in open ai server. here building a production ready application. can deploy in the cloud platform. we can access this model through API request
+but if i'm using any open source large language model we have to download this model in our local machine, and local machine doesn't have good configuration GPU ,RAM, CPU..etc And it will take lots of time to give response. size is very huge need high configuration .
+
+
+
+query and knowledge base will go to the LLM, LLM will understand the query and rank results based on that it will give the correct response.
+
+=========================================================================
+
+November 2
+-----------
+
+
+open ai llm will be using
+
+using langchain ->  using as generative AI frame work to develop the entire project
+
+pine cone--> is cloud based vector database is using here
+
+flask --> is using for crateing user interface
+
+GitHub
+
+
+here we are using sentence transformer, cause we will be using open source embedding model to generate the vector embedding
+
+
+
+first we need to create the entire project folder structure
+
+
+19:20
+
+using pypdf loader
+
+
+
+extrcating all the information from the pdf file.
+
+performing the chunking operation using recursive text splitter
+
+imported hugging face embedding model from langchain embedding
+
+
+
+
+==============
+
+November 5
+-----------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
